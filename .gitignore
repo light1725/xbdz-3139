@@ -1,0 +1,36 @@
+# Keil C51 intermediate build files
+*.obj
+*.__i
+*._ia
+*.SBR
+*.lnp
+*.m51
+*.lst
+*.map
+*.htm
+*.bak
+*.uvgui.*
+*.uvguix.*
+*.tmp
+*.log
+build.log
+Keil_C/build.log
+Keil_C/Project/build.log
+Keil_C/List/*
+
+# Keil Output: ignore object files but keep hex
+Keil_C/Output/*.obj
+Keil_C/Output/*.__i
+Keil_C/Output/*._ia
+Keil_C/Output/*.SBR
+Keil_C/Output/*.lnp
+Keil_C/Output/*.build_log.htm
+Keil_C/Output/31392
+
+# Keep hex file
+!Keil_C/Output/*.hex
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
